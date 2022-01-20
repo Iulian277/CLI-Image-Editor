@@ -101,3 +101,10 @@ void keep_first_k_singular(double **original, double **compr, int rows, int cols
         for(int j = 0; j < cols; ++j)
             compr[i][j] = original[i][j];
 }
+
+void replace_pixels(double **old, double **new, int rows, int cols)
+{
+    for(int i = 0; i < rows; ++i)
+        for(int j = 0; j < cols; ++j)
+            old[i][j] = new[i][j];
+}

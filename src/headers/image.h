@@ -31,4 +31,6 @@ void matrix_to_data(Image *image, unsigned char *data);
 
 void keep_first_k_singular(double **original, double **compr, int rows, int cols);
 
+void replace_pixels(double **old, double **new, int rows, int cols);
+
 #endif // _IMAGE_
