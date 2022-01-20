@@ -1,0 +1,22 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "README": "plaintext",
+        "cacheA_in": "plaintext",
+        "cacheB_in": "plaintext",
+        "commons.h": "c",
+        "png.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "stdio.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "rotate.h": "c",
+        "image.h": "c",
+        "utils.h": "c",
+        "random": "c",
+        "stb_image_write.h": "c",
+        "noise_red.h": "c"
+    }
+}
